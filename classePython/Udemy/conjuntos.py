@@ -30,4 +30,19 @@ print(len(cidades))
 
 print(len(set(cidades)))    
 
+unicos1 = estudantes_python.union(estudantes_java)
+{'Pedro', 'Fernando', 'Ana', 'Julia', 'Guilherme', 'Patricia', 'Marcos', 'Ellen', 'Gustavo'}
+
+unicos1 = estudantes_java.union(estudantes_python)
+{'Sergio', 'Flavio', 'Mara', 'Juliana', 'Gabriel', 'Priscila', 'Mauricio', 'Hellen', 'Gusmão'}
+
+unicos2 = estudantes_python | estudantes_java
+print(unicos2)
 """
+estudantes_python = {'Pedro', 'Fernando', 'Ana', 'Julia', 'Guilherme', 'Patricia', 'Marcos', 'Ellen', 'Gustavo'}
+
+estudantes_java = {'Sergio', 'Flavio', 'Mara', 'Juliana', 'Gabriel', 'Priscila', 'Mauricio', 'Hellen', 'Gusmão'}
+
+unicos2 = estudantes_python | estudantes_java
+print(unicos2)
+
